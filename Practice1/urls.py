@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'Myfirstapp/', include('Myfirstapp.urls')),
     url(r'admin/', admin.site.urls),
     url(r'mysecondapp/', include('mysecondapp.urls')),
+    url(r'thirdapp/', include('thirdapp.urls')),
 ]
